@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.formu{
+    margin-left: 550px;
+    width: 500px;
+    padding: 30px;
+    margin-top: -35px;
+    height: 830px;
+    border-radius: 10px;
+    background-color:  #D91414;
+    color: white;
+    margin-top: 80px;
+}
+.controls, .controls1{
+    margin-top: 17px;
+    width: 100%;
+    height: 45px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color:black;
+    border: solid 1px #ccc;
+}
+.boton{
+    width: 100%;
+    margin-right: 100px;
+    border: none;
+    padding: 12px;
+    background: #ffff;
+    color: #D91414;
+    font-size: 22px;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0,0,0.3);
+    float: left;
+    margin-top: 15px;
+}

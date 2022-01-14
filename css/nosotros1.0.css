@@ -1,0 +1,169 @@
+body
+{
+    background: linear-gradient(#A3E4D7,#CD6155);
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+:root
+{
+    --black: #333;
+    --white: #fff;
+}
+.btn#fd
+{
+    background: linear-gradient(#D98880,#85929E);
+    border-radius: 10px 50px 20px;
+    font-weight: 700;
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
+img#lo
+{
+    position: relative;
+    left: 50px;
+}
+.btn#fg
+{
+    
+    background: linear-gradient(#D98880,#85929E);
+    border-radius: 10px 50px 20px;
+    font-weight: 700;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+img#lp
+{
+    position: relative;
+    left: 100px;
+}
+.btn#fj
+{
+ 
+    background: linear-gradient(#D98880,#85929E);
+    border-radius: 10px 50px 20px;
+    font-weight: 700;
+    width: 150px;
+    position: relative;
+    left: 150px;
+}
+img#lq
+{
+    position: relative;
+    left: 140px;
+}
+.btn#po
+{
+    background: linear-gradient(#D98880,#85929E);
+    border-radius: 10px 50px 20px;
+    font-weight: 700;
+    width: 150px;
+    
+     
+}
+
+img#er
+{
+    left: 50px;
+}
+
+
+h5 , p
+{
+    color: var(--white);
+    font-size: 2em;
+    font-weight: 900;
+}
+.carousel-indicators button#iu
+{
+    border-radius: 50px 10px;
+    background: #004D40 ;
+}
+.container-item .descri h3#por
+{
+    
+    font-size: 3em;
+    
+    color: var(--white);
+}
+.descri p
+{
+    font-size: 1.35em;
+    color: var(--black);
+} 
+.row h4
+{
+    position: absolute;
+    left: 100px;
+    font-family: sans-serif;
+    
+    font-weight: 500;
+    color: var(--black);
+}
+.row h4#gt
+{
+    position: relative;
+   
+    font-family: sans-serif;
+    
+    font-weight: 500;
+    color: var(--black);
+}
+.row h4#uy
+{
+    position: relative;
+    font-family: sans-serif;  
+    font-weight: 500;
+    color: var(--black);
+}
+.row p#ois
+{
+    
+    left: 90px;
+    font-size: 2.35vh;
+    font-family:  "Times New Roman", Times, serif;
+   
+    color: var(--black);
+}
+.row p#os
+{
+    
+    left: 90px;
+    font-size: 2.35vh;
+    font-family:  "Times New Roman", Times, serif;
+   
+    color: var(--black);
+}
+.row p#is
+{
+    
+    font-size: 2.35vh;
+    font-family:  "Times New Roman", Times, serif;
+   
+    color: var(--black);
+}
+.row img#re
+{
+    border: none;
+    border-radius: 50px;
+}
+.container-fluid img#ki
+{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    
+}
+.container-fluid p#tri
+{
+    color: var(--white);
+    font-size: 2vh;
+}
+.row .btn#re ,a
+{
+    border: none;
+    font-size: 1.75vh;
+    color: var(--white);
+}

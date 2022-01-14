@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body
+{
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(#A3E4D7,#CD6155);
+}
+:root
+{
+    --black: #333;
+    --white: #fff;
+}
+.dark
+{
+    --black: #fff;
+    --white: #333;
+}
+
+
+
+.sci
+{
+  position: absolute;
+  right: 80px;
+  bottom: 30px;
+  z-index: 4;  
+  display: flexbox;
+  flex-direction: column;
+}
+.sci li
+{
+    list-style: none;
+}
+.sci li a
+{
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.75em;
+
+}
+
+
+/*login ya tu sabes maik*/
+.form-container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 4;
+    color: var(--black);  
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 600px;
+    padding: 50px 30px;
+    border-radius: 40px;
+    box-shadow:10px 50px 1000px  #A3E4D7 ;
+   
+   
+  }
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-data {
+    
+    text-align: center;
+    width: 60%;
+  }
+ 
+  
+  .login-data h1 {
+    position: relative;
+    left: 60px;
+    top:30px;
+    font-size: 2em;
+    color: var(--white);
+
+  }
+  
+  .login-data img
+  {
+      position: relative;
+      top: 50px;
+      left: 60px;
+      width: 100px;
+      height: 100px;
+  }
+  .input-group {
+    position: relative;
+    left: -10%;
+    top: 110px;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+  .input-fill input {
+    position: relative;
+    left: 120px;
+    border-radius: 4rem;
+    width: 120%;
+    border: 2px solid #B2DFDB;
+    line-height: 147.6%;
+    font-size: 1.3rem;
+    background: linear-gradient(#CFD8DC,#FFCCBC) ;
+    color: var(--black);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    transition: 0.3s ease-in-out all;
+    font-weight: 500;
+    
+  }
+  
+  .input-fill input:focus {
+    position: relative;
+    left: 30%;
+    outline: none;
+    border-color: #a50f0f;
+  }
+  
+  .input-fill input:hover {
+    background-color: #e9ecef;
+  }
+  .input-fill input:focus + .input-label {
+    position:absolute;
+    left: 100px;
+    top: 0;
+    margin-bottom: 2rem;
+    color: #a50f0f;
+  }
+  
+  .input-fill input:focus ~ i {
+    color: #a50f0f;
+  }
+  
+  .input-fill .input-label {
+   
+    position: absolute;
+    top: -20px;
+    left: 100px;
+    line-height: 147.6%;
+    color: #a50f0f;
+    transition: top 0.2s;
+    font-weight: 700;
+  }
+  
+  .input-fill i {
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    color: #a50f0f;
+    font-size: 1.5rem;
+  }
+  
+  .login-form a {
+    position: relative;
+    top: 100px;
+    left: 70%;
+    display: block;
+    width: 100%;
+    text-align: right;
+    text-decoration: none;
+    color: #a50f0f;
+    margin-bottom: 1.3rem;
+    font-weight: 800;
+    transition: 0.3s ease-in-out all;
+    font-size: 18px;
+  }
+  
+  .login-form a:hover {
+    color: #a50f0f;
+    
+  }
+  
+  .btn-login {
+    position: relative;
+    top: 110px;
+    left: 30%;
+    border-radius: 3rem;
+    width: 70%;
+    border: 1px solid #a50f0f;
+    line-height: 1.6rem;
+    font-size: 1.3rem;
+    background-color: #a50f0f;
+    color: #ffffff;
+    padding: 0.5rem 0;
+    transition: 0.3s ease-in-out all;
+    font-weight: 500;
+  }
+  
+  .btn-login:hover {
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #a50f0f;
+  }    
+  

@@ -1,0 +1,28 @@
+:root
+{
+    --black: #333;
+    --white: #fff;
+}
+.row img#fr
+{
+    position: relative;
+    left: 170px;
+    top: 80px;
+    
+    box-shadow:10px 10px 90px #B71C1C ;
+border-radius: 80px 20px 75px 20px;
+}
+
+.row p#f
+ {
+     position: relative;
+     top: 100px;
+     left: 150px;
+     color: var(--white);
+ } 
+ .row .btn#fr
+ {
+     position: relative;
+     top: 100px;
+     left: 180px;
+ }

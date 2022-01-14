@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.encabezado{
+    background-color: #E0E0E0;
+}
+.encabezado nav{
+    float: right;
+}
+.encabezado nav ul{
+    list-style: none;
+}
+.encabezado a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:black;
+    margin-right: 150px;
+    margin-top: -70px;
+    display: block;
+    font-size: 22px;
+}
+.closer a{
+    cursor: pointer;
+}
+.closer a:hover{
+    color: #F12727;
+}
+.botone{
+    margin-top: 50px;
+    margin-left: 300px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    height: 50px;
+    width: 260px;
+    cursor: pointer;
+    margin-left: 150px;
+    background-color: #20D02E;
+}
